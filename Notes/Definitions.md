@@ -1,5 +1,5 @@
 **deadlock** Situation where two or more tasks are each waiting for the other to finish, and thus neither ever does.  
 **deadly embrace** Synonym for deadlock.  
 **gatekeeper** Task that have sole ownership of a resource and implements mutual exclusion in this way.  
-**hook** Techniques used to alter or augment the behavior of an software component by intercepting function calls or messages or events passed between software components. Code that handles such intercepted function calls, events or messages is called a "hook".
+**hook** Techniques used to alter or augment the behavior of an software component by intercepting function calls or messages or events passed between software components. Code that handles such intercepted function calls, events or messages is called a "hook".  
 **reentrancy** A function is called reentrant if it can be interrupted in the middle of its execution and then safely called again ("re-entered") before its previous invocations complete execution. The interruption could be caused by an internal action such as a jump or call, or by an external action such as a hardware interrupt or signal. Once the reentered invocation completes, the previous invocations will resume correct execution. Read more at [Wikipedia](http://en.wikipedia.org/wiki/Reentrancy_%28computing%29).  
